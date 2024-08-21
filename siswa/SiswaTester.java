@@ -12,7 +12,8 @@ public class SiswaTester {
         Siswa zaky = new Siswa();
         Siswa kevin = new Siswa();
         Siswa surya = new Siswa();
-
+        Siswa gopi = new Siswa(15, "gopi", 90);
+        
         // object.method = value
         arkan.id = 22;
         arkan.nama = "MUHAMMAD ARKAN MARIADI";
