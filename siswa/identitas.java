@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class i1 {
+public class identitas {
  /**
  * @param args
  */
