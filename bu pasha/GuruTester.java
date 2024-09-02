@@ -59,6 +59,7 @@ public class GuruTester {
         buAul.setMapel("Produktif rpl");
         buAul.setStatus("part-time");
         
+        buJevi.set("bu jevi");
         buJevi.setNip(3025);
         buJevi.setMapel("Bahasa inggris");
         buJevi.setStatus("tetap");

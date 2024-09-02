@@ -1,8 +1,8 @@
 public class Guru {
-  int nip;
-  String nama;
-  String mapel;
-  String status;
+  private int nip;
+  private String nama;
+  private String mapel;
+  private String status;
 
   public int getNip() {
     return this.nip;
@@ -12,7 +12,7 @@ public class Guru {
     this.nip = nip;
   }
 
-  public String getnama() {
+  public String getNama() {
 		return this.nama;
 	}
 
