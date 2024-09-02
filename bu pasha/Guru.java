@@ -1,6 +1,40 @@
 public class Guru {
-    int nip;
-    String nama, mapel, status;
+  int nip;
+  String nama;
+  String mapel;
+  String status;
+
+  public int getNip() {
+    return this.nip;
+  }
+
+  public void setNip(int nip) {
+    this.nip = nip;
+  }
+
+  public String getnama() {
+		return this.nama;
+	}
+
+  public void set(String nama ) {
+		this.nama = nama ;
+	}
+
+  public String getMapel() {
+    return mapel;
+  }
+
+  public void setMapel(String mapel) {
+    this.mapel = mapel;
+  }
+
+  public String getStatus() {
+    return status;
+  }
+
+  public void setStatus(String status) {
+    this.status = status;
+  }
 
 
   public Guru (int p, String n, String m, String s){
