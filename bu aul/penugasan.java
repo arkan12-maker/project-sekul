@@ -24,5 +24,11 @@ public class penugasan {
 
         System.out.println("jumlah barang yang dibeli = " + pisang + " pisang " + "+ " + jeruk + " jeruk " + "+ " +apel+ " apel = " +total);
         System.out.println("harga yang harus dibayar = "+bayar);
+
+        if (bayar > 100000) {
+            System.out.println("rich");
+        }else{
+            System.out.println("poor");
+        }
     }
 }

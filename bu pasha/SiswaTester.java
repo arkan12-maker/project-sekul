@@ -21,7 +21,10 @@ public class SiswaTester {
         System.out.println("-------------------");
 
         Siswa gopi = new Siswa(id, nama , ipk);
+        Siswa anto = new Siswa(id, nama, ipk);
         gopi.print();
+        anto.print();           
+        
         
         input.close();
         
