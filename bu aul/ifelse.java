@@ -13,6 +13,9 @@ public class ifelse {
         in.close();
 
         if (total > 100000) {
+            if (total == 1000){
+                System.out.println("Anda mendapat diskon 10% ");
+            }
             diskon = total * 10/100;
             total -= diskon;
             System.out.println("");
