@@ -7,26 +7,26 @@ public class SiswaTester {
 
     public static void main(String[] args) {
         // namaClass namaObject = new Constructor
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
 
-        System.out.println("masukkan nama : ");
-        String nama = input.nextLine();
+        // System.out.println("masukkan nama : ");
+        // String nama = input.nextLine();
 
-        System.out.println("masukkan id : ");
-        int id = input.nextInt();
+        // System.out.println("masukkan id : ");
+        // int id = input.nextInt();
         
-        System.out.println("masukkan ipk : ");
-        double ipk = input.nextDouble();
+        // System.out.println("masukkan ipk : ");
+        // double ipk = input.nextDouble();
         
-        System.out.println("-------------------");
+        // System.out.println("-------------------");
 
-        Siswa gopi = new Siswa(id, nama , ipk);
-        Siswa anto = new Siswa(id, nama, ipk);
-        gopi.print();
-        anto.print();           
+        // Siswa gopi = new Siswa(id, nama , ipk);
+        // Siswa anto = new Siswa(id, nama, ipk);
+        // gopi.print();
+        // anto.print();           
         
         
-        input.close();
+        // input.close();
         
         // Siswa arkan = new Siswa();
         // Siswa rabani = new Siswa();
@@ -61,5 +61,45 @@ public class SiswaTester {
         // kevin.print();
         // iqbal.print();
         // zaky.print();
-    }
+        Scanner input = new Scanner(System.in);
+
+        Siswa arkan = new Siswa();
+        Siswa surya = new Siswa();
+
+        System.out.println("masukkan id : ");
+        arkan.setId(input.nextInt());
+        System.out.println("masukkan nama : ");
+        arkan.setNama(input.nextLine());
+        System.out.println("masukkan ipk : ");
+        arkan.setIpk(input.nextDouble());
+    
+        if ( arkan.getIpk() > surya.getIpk()) {
+            System.out.println("ipk arkan lebih besar");
+        }else {
+            System.out.println("ipk surya lebih ");
+        }
+    
+
+    
+
+        if (arkan.getIpk()> 70 && arkan.getNama().equalsIgnoreCase("arkan")){
+            System.out.println("Lulus");
+            
+        }else{
+            System.out.println("Tidak Lulus");
+        }
+            
+
+        // if (arkan.getIpk()> 70 && arkan.getNama().equalsIgnoreCase("surya")) {
+        //         System.out.println("Salah");
+        // }else{
+        //    System.out.println("benar");
+        // }
+       
+
+    
+    
+   
 }
+}
+    

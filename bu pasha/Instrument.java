@@ -1,6 +1,6 @@
 public class Instrument {
-   String type;
-   Double price;
+   private String type;
+   private Double price;
 
    public String getType() {
       return this.type;

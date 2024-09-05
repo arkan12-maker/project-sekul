@@ -13,8 +13,26 @@ public class Playinstrument {
         c.setType("Piano");
         c.setPrice(120.4);
         
+    
         a.print();
         b.print();
         c.print();
+        System.out.println("");
+
+        if (a.getPrice() > b.getPrice() && a.getPrice() > c.getPrice()) {
+            System.out.println("harga paling mahal adalah gitar");
+        } else if (b.getPrice() > a.getPrice() && b.getPrice() > c.getPrice()) {
+            System.out.println("harga paling mahal adalah violin");
+        } else {
+            System.out.println("harga paling mahal adalah piano");
+        }
+
+        if (a.getPrice() < b.getPrice() && a.getPrice() < c.getPrice()) {
+            System.out.println("harga paling murah adalah gitar");
+        } else if (b.getPrice() < a.getPrice() && b.getPrice() < c.getPrice()) {
+            System.out.println("harga paling murah adalah violin");
+        } else {
+            System.out.println("harga paling murah adalah piano");
+        }
     }
 }
