@@ -1,8 +1,9 @@
+package soal;
 import java.util.Scanner;
 
 public class soalA {
     public static void main(String[] args) {
-            int nilai;
+        int nilai;
         String predikat, nama;
 
         Scanner input = new Scanner (System.in);

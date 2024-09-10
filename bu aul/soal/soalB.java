@@ -1,3 +1,4 @@
+package soal;
 import java.util.Scanner;
 
 public class soalB {
