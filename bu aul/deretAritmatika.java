@@ -19,6 +19,9 @@ public class deretAritmatika {
 
         // FAKTORIAL FOR --end
 
+
+
+
         // FAKTORIAL WHILE
 
         // int angka, total = 1, i;
@@ -34,6 +37,8 @@ public class deretAritmatika {
         // System.out.println("faktorial dari "+angka+" adalah = "+total);
 
         // FAKTORIAL WHILE --end
+
+
 
 
         // DERET ARITMATIKA FOR
@@ -54,6 +59,9 @@ public class deretAritmatika {
 
         // DERET ARITMATIKA FOR --end
 
+
+
+
         // DERET ARITMATIKA WHILE
 
         // int awal, jumlah, beda ,a=1, total;
@@ -73,5 +81,7 @@ public class deretAritmatika {
         // }
 
         // DERET ARITMATIKA WHILE --end
+
+        
     }
 }
