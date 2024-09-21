@@ -5,7 +5,8 @@ public class deretAritmatika {
 
         Scanner input = new Scanner(System.in);
 
-        // FAKTORIAL FOR
+        // // FAKTORIAL FOR
+
         // int angka, total = 1;
         // System.out.println("masukkan angka : ");
         // angka = input.nextInt();
@@ -14,7 +15,26 @@ public class deretAritmatika {
         //     total *= i;
            
         // }
-        // System.out.println(total);
+        // System.out.println("faktorial dari "+angka+" adalah = "+total);
+
+        // FAKTORIAL FOR --end
+
+        // FAKTORIAL WHILE
+
+        // int angka, total = 1, i;
+        // System.out.println("masukkan angka : ");
+        // angka = input.nextInt();
+        
+        // i = angka;
+
+        // while (i >= 1) {
+        //     total *= i;
+        //     i--;
+        // }
+        // System.out.println("faktorial dari "+angka+" adalah = "+total);
+
+        // FAKTORIAL WHILE --end
+
 
         // DERET ARITMATIKA FOR
 
@@ -32,6 +52,7 @@ public class deretAritmatika {
         //     System.out.println("suku ke "+i+" adalah "+suku);
         // }
 
+        // DERET ARITMATIKA FOR --end
 
         // DERET ARITMATIKA WHILE
 
@@ -51,5 +72,6 @@ public class deretAritmatika {
         //   a++;
         // }
 
+        // DERET ARITMATIKA WHILE --end
     }
 }
