@@ -1,3 +1,5 @@
+// package superClass;
+
 import java.util.Scanner;
 public class Product {
     private String name;

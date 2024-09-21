@@ -5,7 +5,7 @@ public class Cd extends Product{
 
     public Cd (){
         super(); //Constructor superclass
-        artist = "";
+        artist = ""; 
         lable = "";
         numSong = 0;
     }
