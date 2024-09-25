@@ -3,7 +3,7 @@
  * Siswa
  */
 
-
+package siswa;
 public class Siswa {
     // variable
     private int id;

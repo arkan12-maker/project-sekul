@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Cd extends Product{
-  
+    private String artist;
+    private String lable;
+    private int numSong;
 
     public Cd (){
         super(); //Constructor superclass
@@ -10,9 +12,14 @@ public class Cd extends Product{
         numSong = 0;
     }
 
-    private String artist;
-    private String lable;
-    private int numSong;
+    public Cd (int number, String name, double price, int quantity, String artist, String lable, int numSong){
+        super(name, price, quantity, number); //Constructor superclass
+        this.artist = artist; 
+        this.lable = lable;
+        this.numSong = numSong;
+    }
+
+
 
     public String getArtist() {
         return this.artist;

@@ -1,7 +1,21 @@
-public class Dvd extends Cd {
+public class Dvd extends Product {
     private int length;
     private String rating;
     private String studio;
+
+    public Dvd() {
+        super();
+        length = 0;
+        rating = "";
+        studio = "";
+    }
+
+    public Dvd(int number, String name, double price, int quantity, String rating, int length, String studio) {
+        super();
+        length = length;
+        rating = rating;
+        studio = studio;
+    }
 
     public int getLength() {
         return this.length;
