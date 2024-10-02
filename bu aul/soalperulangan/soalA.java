@@ -1,4 +1,4 @@
-package htmljs.soalperulangan;
+package soalperulangan;
 import java.util.Scanner;
 public class soalA {
     static int tiket, totalTiket ;

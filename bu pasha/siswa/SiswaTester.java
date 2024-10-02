@@ -3,7 +3,7 @@
  * SiswaTester
  */
 
- package ;
+package siswa ;
 import java.util.Scanner;
 public class SiswaTester {
 

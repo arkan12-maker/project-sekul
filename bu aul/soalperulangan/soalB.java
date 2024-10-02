@@ -1,4 +1,4 @@
-package htmljs.soalperulangan;
+package soalperulangan;
 import java.util.Scanner;
 public class soalB {
     public static void main(String[] args) {
