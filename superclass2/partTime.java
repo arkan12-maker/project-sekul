@@ -11,6 +11,7 @@ public class partTime extends Teacher {
         this.salary = 200000;
     }
 
+
     public int getHoursWorked() {
         return this.hoursWorked;
     }
