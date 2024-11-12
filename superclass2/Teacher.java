@@ -23,8 +23,11 @@ public class Teacher extends Person{
 
 
     public void print() {
+        System.out.println();
+        System.out.println("--- Teacher ---");
         super.print();
         System.out.println("Subject: " + subject);
+        System.out.println();
     }
 
 }

@@ -1,3 +1,4 @@
+
 public class Instrument {
    private String type;
    private Double price;

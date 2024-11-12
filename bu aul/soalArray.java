@@ -20,7 +20,7 @@ public class soalArray {
             jumlahbuku [i] = Integer.parseInt(jumlahdummy);
         }
         System.out.println();
-        System.out.println("==Jumlah buku== : ");
+        System.out.println("==Jumlah buku==");
         System.out.println("");
         for (int i = 0; i < genre.length; i++) {
             System.out.println(genre[i]+" = "+jumlahbuku[i]);

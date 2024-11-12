@@ -23,29 +23,33 @@ public class Array {
 //         }
 // }
 
-Scanner input = new Scanner(System.in);
-System.out.println("masukkan jumlah menu : ");
-String jumlah = input.nextLine();
+// Scanner input = new Scanner(System.in);
+// System.out.println("masukkan jumlah menu : ");
+// String jumlah = input.nextLine();
 
-int jumlahreal = Integer.parseInt(jumlah);
-String menu[] = new String[jumlahreal];
+// int jumlahreal = Integer.parseInt(jumlah);
+// String menu[] = new String[jumlahreal];
 
-String hargadummy;
-int harga[] = new int[jumlahreal];
+// String hargadummy;
+// int harga[] = new int[jumlahreal];
 
 
-for (int i = 0; i < menu.length; i++) {
-    System.out.println("Menu "+(i+1)+" : ");
-    menu[i] = input.nextLine();
-    System.out.println("harga "+menu[i]+" : ");
-    hargadummy = input.nextLine();
-    harga [i] = Integer.parseInt(hargadummy);
-}
-System.out.println();
-System.out.println("====Menu yang anda pesan==== : ");
-System.out.println("");
-for (int i = 0; i < menu.length; i++) {
-    System.out.println(menu[i]+" = "+harga[i]);
-}
+// for (int i = 0; i < menu.length; i++) {
+//     System.out.println("Menu "+(i+1)+" : ");
+//     menu[i] = input.nextLine();
+//     System.out.println("harga "+menu[i]+" : ");
+//     hargadummy = input.nextLine();
+//     harga [i] = Integer.parseInt(hargadummy);
+// }
+// System.out.println();
+// System.out.println("====Menu yang anda pesan==== : ");
+// System.out.println("");
+// for (int i = 0; i < menu.length; i++) {
+//     System.out.println(menu[i]+" = "+harga[i]);
+// }
+
+int arkan [] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+System.out.println(arkan[2]);
 }
 }

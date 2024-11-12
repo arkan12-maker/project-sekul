@@ -45,12 +45,13 @@ public class Student extends Person{
 		this.major = major;
 	}
     public void print(){
-        
-        System.out.println("-- student --");
+        System.out.println();
+        System.out.println("--- student ---");
         super.print();
         System.out.println("student number : "+studentNumber);
         System.out.println("score : "+score);
         System.out.println("major : "+major);
+        System.out.println();
     }
 }
 
