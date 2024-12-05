@@ -14,7 +14,7 @@ public class susah {
         String id = input.nextLine();
         System.out.println("masukkan jumlah kwh :");
         int kwh = input.nextInt();
-        
+
         Double hr = Double.parseDouble(String.valueOf(data[0][4]));
         Double hr1 = Double.parseDouble(String.valueOf(data[1][4]));
         Double hr2 = Double.parseDouble(String.valueOf(data[2][4]));
@@ -23,6 +23,7 @@ public class susah {
         if (id.equalsIgnoreCase("1")) {
             System.out.println();
             System.out.println("---------------------");
+            System.out.println("id : " + data[0][0]);
             System.out.println("nama : " + data[0][2]);
             System.out.println("golongan : " + data[0][3]);
             System.out.println("alamat : " + data[0][1]);
@@ -36,6 +37,7 @@ public class susah {
         if (id.equalsIgnoreCase("2")) {
             System.out.println();
             System.out.println("---------------------");
+            System.out.println("id : " + data[1][0]);
             System.out.println("nama : " + data[1][2]);
             System.out.println("golongan : " + data[1][3]);
             System.out.println("alamat : " + data[1][1]);
@@ -49,6 +51,7 @@ public class susah {
         if (id.equalsIgnoreCase("3")) {
             System.out.println();
             System.out.println("---------------------");
+            System.out.println("id : " + data[2][0]);
             System.out.println("nama : " + data[2][2]);
             System.out.println("golongan : " + data[2][3]);
             System.out.println("alamat : " + data[2][1]);
@@ -63,6 +66,7 @@ public class susah {
         if (id.equalsIgnoreCase("4")) {
             System.out.println();
             System.out.println("---------------------");
+            System.out.println("id : " + data[3][0]);
             System.out.println("nama : " + data[3][2]);
             System.out.println("golongan : " + data[3][3]);
             System.out.println("alamat : " + data[3][1]);
